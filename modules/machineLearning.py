@@ -13,7 +13,7 @@ def ml():
         st.subheader("📘 Marks Predictor based on Study Hours")
 
         try:
-            data = pd.read_csv("marks.csv")
+            data = pd.read_csv("assets/marks.csv")
         except Exception as e:
             st.error(f"Error loading 'marks.csv': {e}")
             return
@@ -38,7 +38,7 @@ def ml():
         st.subheader("💼 Startup Profit Predictor")
 
         try:
-            df = pd.read_csv("50_Startups.csv")
+            df = pd.read_csv("assets/50_Startups.csv")
         except Exception as e:
             st.error(f"Error loading '50_Startups.csv': {e}")
             return

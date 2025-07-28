@@ -7,7 +7,7 @@ def Introduction():
     st.subheader(f" Team Number: {team_number}")
     name = "Raghav Soni"
     
-    image = Image.open("me.jpg")
+    image = Image.open("assets/me.jpg")
     st.subheader("Team Member Info")
     st.image(image,width=300)
     st.subheader(f"👤 Name: {name}")
