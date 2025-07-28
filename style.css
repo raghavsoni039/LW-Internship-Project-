@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+h1 {
+  text-align: center;
+}
+section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+button {
+  padding: 10px;
+  margin: 5px;
+}
+.product {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  background: #e2e2ff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#map {
+  height: 300px;
+  width: 100%;
+  margin-top: 10px;
+}
+video {
+  max-width: 100%;
+}
