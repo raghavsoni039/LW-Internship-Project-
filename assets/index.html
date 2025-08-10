@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Multi-Feature Web App</title>
-  <link rel="stylesheet" href="style.css">
-  
+  <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
   <h1>Multi-Feature JS App</h1>
-
   <section>
     <h2>1. Take Photo & Send Email</h2>
     <video id="video" autoplay></video>
@@ -16,39 +14,33 @@
     <button onclick="capturePhoto()">📸 Capture</button>
     <button onclick="sendPhoto()">📧 Send Photo via Email</button>
   </section>
-
   <section>
     <h2>2. Record Video & Send</h2>
     <button onclick="startRecording()">🎥 Start Recording</button>
     <button onclick="stopRecording()">⏹ Stop & Send</button>
     <video id="recordedVideo" controls></video>
   </section>
-
   <section>
     <h2>3. Send WhatsApp Message</h2>
     <input type="text" id="wa-number" placeholder="Phone number with country code">
     <input type="text" id="wa-msg" placeholder="Your message">
     <button onclick="sendWhatsApp()">📤 Send WhatsApp</button>
   </section>
-
   <section>
     <h2>4. Send SMS</h2>
     <button onclick="sendSMS()">📱 Send SMS (via Twilio)</button>
   </section>
-
   <section>
     <h2>5. Location & Maps</h2>
     <button onclick="getLocation()">📍 Get Location</button>
     <p id="locationInfo"></p>
     <div id="map"></div>
   </section>
-
   <section>
     <h2>7. IP & Location</h2>
     <button onclick="getIP()">🌐 Get IP Address</button>
     <p id="ipInfo"></p>
   </section>
-
   <script src="script.js"></script>
 </body>
 </html>
