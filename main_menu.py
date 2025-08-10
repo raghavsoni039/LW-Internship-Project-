@@ -30,6 +30,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 def main_menu():
     st.sidebar.markdown("### Module Selection")
     menu = st.sidebar.radio(
